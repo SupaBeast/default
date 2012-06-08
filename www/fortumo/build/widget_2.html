@@ -23,32 +23,13 @@
         <a id="help" href="javascript:void(0)">Help</a>
       </div>
       <div class="loader hidden">
-        <ul class="steps">
-          <li>
-            <span class="icon"><img src="images/widget/done.png" alt="" title=""  width="22" height="22" /></span>
-            <span class="status">SMS Primljeno</span>
-            <div class="clear"></div>
-          </li>
-          <li>
-            <span class="icon"><img src="images/widget/loader-small.gif" alt="" title=""  width="20" height="20" /></span>
-            <span class="status">Potvrda poslata</span>
-            <div class="clear"></div>
-          </li>
-          <li>
-            <span class="icon"><img src="images/widget/on-hold.png" alt="" title=""  width="22" height="20" /></span>
-            <span class="status">Kompletiranje transakcije</span>
-            <div class="clear"></div>
-          </li>
-          <li>
-            <span class="icon"><img src="images/widget/error.png" alt="" title=""  width="22" height="22" /></span>
-            <span class="status">Something went wrong</span>
-            <div class="clear"></div>
-          </li>
-        </ul>
+        <span class="text">Loading payment data</span>
+        <span class="spiner"><img src="images/widget/loader.gif" alt="" title=""  width="50" height="50" /></span>
+        <span class="powered">Powered by <span class="fontBold">fortumo</span></span>
       </div>
       <div id="mainInner">
         <form action="">
-          <div class="row top">
+          <div class="row top plusPadding">
             <span class="operatorSelect">
               <select>
                 <option>Выбери оператора сети</option>
@@ -59,7 +40,7 @@
               </select>
             </span>
           </div>
-          <div>
+          <div class="plusPadding">
             <span class="input phone">
               <span class="inputInner phone"><input type="text" value="" name=""/></span>
               <a href="javascript:void(0)" class="inputButton01 rfloat toggle widget_3"><span class="inputButton01-inner">OK</span></a>
@@ -71,19 +52,18 @@
           </div>
         </form>
         <div class="row">
-          <div class="operators lfloat">
-            <img src="images/widget/elisa.png" alt="" title="" class="active"  width="45" height="25" />
-            <img src="images/widget/emt.png" alt="" title="" class="active"  width="49" height="25" />
-            <img src="images/widget/tele2.png" alt="" title="" class="active"  width="52" height="25" />
-            <img src="images/widget/movistar.png" alt="" title=""  width="85" height="25" />
-            <img src="images/widget/nextel.png" alt="" title=""  width="70" height="25" />
-          </div>
-          <div class="text textShadow rfloat">
-            <span>Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
+          <div class="operators">
+            <span class="active"><img src="images/widget/elisa.png" alt="" title=""  width="45" height="25" /></span>
+            <span class="active"><img src="images/widget/emt.png" alt="" title=""  width="49" height="25" /></span>
+            <span class="active"><img src="images/widget/tele2.png" alt="" title=""  width="52" height="25" /></span>
+            <span class="active"><img src="images/widget/movistar.png" alt="" title=""  width="85" height="25" /></span>
+            <span class="active"><img src="images/widget/nextel.png" alt="" title=""  width="70" height="25" /></span>
+            <span class="active"><img src="images/widget/movistar.png" alt="" title=""  width="85" height="25" /></span>
           </div>
         </div>
         <div class="row border-top acenter last">
           <span class="amount textShadow">319 Silver Coins = <span class="price">$21</span></span>
+          <span class="serviceProvide">Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
         </div>
       </div>
       <div id="helpContent" class="hidden">

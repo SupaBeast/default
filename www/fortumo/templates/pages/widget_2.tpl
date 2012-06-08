@@ -6,33 +6,10 @@
   <a href="javascript:void(0)" id="close">{partial tpl="img" src="widget/close.png"}</a>
   <a id="help" href="javascript:void(0)">Help</a>
 </div>
-<div class="loader hidden">
-  <ul class="steps">
-    <li>
-      <span class="icon">{partial tpl="img" src="widget/done.png"}</span>
-      <span class="status">SMS Primljeno</span>
-      <div class="clear"></div>
-    </li>
-    <li>
-      <span class="icon">{partial tpl="img" src="widget/loader-small.gif"}</span>
-      <span class="status">Potvrda poslata</span>
-      <div class="clear"></div>
-    </li>
-    <li>
-      <span class="icon">{partial tpl="img" src="widget/on-hold.png"}</span>
-      <span class="status">Kompletiranje transakcije</span>
-      <div class="clear"></div>
-    </li>
-    <li>
-      <span class="icon">{partial tpl="img" src="widget/error.png"}</span>
-      <span class="status">Something went wrong</span>
-      <div class="clear"></div>
-    </li>
-  </ul>
-</div>
+{partial tpl="loader"}
 <div id="mainInner">
   <form action="">
-    <div class="row top">
+    <div class="row top plusPadding">
       <span class="operatorSelect">
         <select>
           <option>Выбери оператора сети</option>
@@ -43,7 +20,7 @@
         </select>
       </span>
     </div>
-    <div>
+    <div class="plusPadding">
       <span class="input phone">
         <span class="inputInner phone"><input type="text" value="" name=""/></span>
         <a href="javascript:void(0)" class="inputButton01 rfloat toggle widget_3"><span class="inputButton01-inner">OK</span></a>
@@ -55,19 +32,18 @@
     </div>
   </form>
   <div class="row">
-    <div class="operators lfloat">
-      {partial tpl="img" class="active" src="widget/elisa.png"}
-      {partial tpl="img" class="active" src="widget/emt.png"}
-      {partial tpl="img" class="active" src="widget/tele2.png"}
-      {partial tpl="img" src="widget/movistar.png"}
-      {partial tpl="img" src="widget/nextel.png"}
-    </div>
-    <div class="text textShadow rfloat">
-      <span>Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
+    <div class="operators">
+      <span class="active">{partial tpl="img" src="widget/elisa.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/emt.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/tele2.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/movistar.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/nextel.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/movistar.png"}</span>
     </div>
   </div>
   <div class="row border-top acenter last">
     <span class="amount textShadow">319 Silver Coins = <span class="price">$21</span></span>
+    <span class="serviceProvide">Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
   </div>
 </div>
 {partial tpl="help"}

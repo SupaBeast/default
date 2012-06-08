@@ -17,8 +17,12 @@
       <span class="smsText textShadow">Waiting for SMS</span>
     </span>
   </div>
-  <div class="row border-top acenter last">
+  <div class="row border-top acenter">
     <span class="amount textShadow">319 Silver Coins = <span class="price">$21</span></span>
+  </div>
+  <div class="row border-top acenter last">
+    <span class="legalText textShadow">Legal text: Coste del mensaje X,XX€ IVA Incluido. Electronic Corporate Solutions para Fortumo. n.º atn clte. 902599327. s@fortumo.com Apdo. correos 61010 CP. 28036 Madrid. Servicio de ocio y entretenimiento disponible en España para abonados de Movistar, Vodafone y Orange </span>
+    <span class="serviceProvide">Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
   </div>
 </div>
 {partial tpl="help"}

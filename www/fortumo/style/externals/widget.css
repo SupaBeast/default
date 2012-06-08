@@ -1,6 +1,7 @@
 /*[fmt]0000-000A-A*/
 /*------------------------------------*\GLOBAL\*------------------------------------*/
-body{overflow:auto;}
+body{overflow:auto; height:auto;}
+html{height:auto;}
 body,input,textarea,select,button{font:12px / 1.666 RobotoRegular, Arial, sans-serif;color:#3A3434;}
 a{color:#414141;text-decoration:none;}
 h1{color:#082320;font-size:1.3em;font-weight:bold;}
@@ -36,16 +37,17 @@ CONTENT
 .row.last{padding-bottom:0;}
 .row.top{padding-top:0;}
 .row.row02{text-align:center; color:#999999;}
-.row.row03{text-align:center; font-size:14px; color:#777777; display:block; padding-left:30px; padding-right:30px; padding-bottom:0;}
+.row.row03{text-align:center; font-size:16px; color:#777777; display:block; padding-left:20px; padding-right:20px; padding-bottom:0; padding-top:0;}
 .legalText{font-size:10px; color:#999999; display:block; text-align:center;}
 .country{float:left; padding-top:15px;}
 .country span{float:left;}
 .country a {color:#4e9c22; padding-left:10px; float:left; padding-top:2px;}
 .country a:hover{color:#45AD05;}
 .country .countrySelect{padding-left:10px; margin-top:-2px;}
-.operators{overflow:hidden; margin-left:-10px; padding-top:6px; width:240px;}
-.operators img{float:left; padding-left:10px; display:none;}
-.operators .active{display:block;}
+.operators{text-align:center; margin-left:-10px; min-height:30px; height:30px;}
+.operators span{display:inline; display:none; zoom:1; padding-left:10px;}
+.operators img{display:inline-block; zoom:1;}
+.operators .active{display:inline-block; zoom:1;}
 .remember{font-size:14px; color:#333333; text-align:center; padding:15px 0;}
 .remember span{display:inline-block; vertical-align:middle;}
 .remember.agree{margin-left:-70px;}
@@ -76,6 +78,7 @@ CONTENT
 .smsWaiting{margin-left:-20px;}
 .smsWaiting .smsText{color:#333333; font-size:14px; padding-left:5px;}
 .smsWaiting span{display:inline-block; vertical-align:middle;}
+.serviceProvide{display:block; padding-top:5px; font-size:10px; text-align:center;}
 
 /*------------------------------------*\
 UNIFORM

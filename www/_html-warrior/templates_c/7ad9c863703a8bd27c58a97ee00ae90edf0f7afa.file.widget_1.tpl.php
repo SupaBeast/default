@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty 3.1-RC1, created on 2012-06-08 15:05:51
+<?php /* Smarty version Smarty 3.1-RC1, created on 2012-06-08 17:05:16
          compiled from "C:\Users\Supa\default\www\fortumo\templates\pages\widget_1.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:101314fd1ea9f69c8a2-06835088%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7ad9c863703a8bd27c58a97ee00ae90edf0f7afa' => 
     array (
       0 => 'C:\\Users\\Supa\\default\\www\\fortumo\\templates\\pages\\widget_1.tpl',
-      1 => 1338549324,
+      1 => 1339164314,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty 3.1-RC1',
   'unifunc' => 'content_4fd1ea9f8da0b',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_4fd1ea9f8da0b')) {function content_4fd1ea9f8da0b($_smarty_tpl) {?><?php if (!is_callable('smarty_function_partial')) include 'C:\Users\Supa\default\www\_html-warrior\externals\smarty\libs\plugins\function.partial.php';
 ?>@title = "Widget first view"
@@ -114,25 +114,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
   <div class="clear"></div>
   <div class="row border-top">
-    <div class="operators lfloat">
-      <?php echo smarty_function_partial(array('tpl'=>"img",'class'=>"active",'src'=>"widget/elisa.png",'indent'=>"      "),$_smarty_tpl);?>
-
-      <?php echo smarty_function_partial(array('tpl'=>"img",'class'=>"active",'src'=>"widget/emt.png",'indent'=>"      "),$_smarty_tpl);?>
-
-      <?php echo smarty_function_partial(array('tpl'=>"img",'class'=>"active",'src'=>"widget/tele2.png",'indent'=>"      "),$_smarty_tpl);?>
-
-      <?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/movistar.png",'indent'=>"      "),$_smarty_tpl);?>
-
-      <?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/nextel.png",'indent'=>"      "),$_smarty_tpl);?>
-
+    <div class="operators">
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/elisa.png"),$_smarty_tpl);?>
+</span>
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/emt.png"),$_smarty_tpl);?>
+</span>
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/tele2.png"),$_smarty_tpl);?>
+</span>
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/movistar.png"),$_smarty_tpl);?>
+</span>
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/nextel.png"),$_smarty_tpl);?>
+</span>
+      <span class="active"><?php echo smarty_function_partial(array('tpl'=>"img",'src'=>"widget/movistar.png"),$_smarty_tpl);?>
+</span>
     </div>
-    <div class="text rfloat">
-      <span>Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
-    </div>
-    <div class="clear"></div>
   </div>
   <div class="row border-top last">
     <span class="legalText textShadow">Legal text: Coste del mensaje X,XX€ IVA Incluido. Electronic Corporate Solutions para Fortumo. n.º atn clte. 902599327. s@fortumo.com Apdo. correos 61010 CP. 28036 Madrid. Servicio de ocio y entretenimiento disponible en España para abonados de Movistar, Vodafone y Orange </span>
+    <span class="serviceProvide">Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
   </div>
 </div>
 <?php echo smarty_function_partial(array('tpl'=>"help",'indent'=>''),$_smarty_tpl);?>

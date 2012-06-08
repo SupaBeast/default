@@ -88,20 +88,18 @@
   </div>
   <div class="clear"></div>
   <div class="row border-top">
-    <div class="operators lfloat">
-      {partial tpl="img" class="active" src="widget/elisa.png"}
-      {partial tpl="img" class="active" src="widget/emt.png"}
-      {partial tpl="img" class="active" src="widget/tele2.png"}
-      {partial tpl="img" src="widget/movistar.png"}
-      {partial tpl="img" src="widget/nextel.png"}
+    <div class="operators">
+      <span class="active">{partial tpl="img" src="widget/elisa.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/emt.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/tele2.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/movistar.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/nextel.png"}</span>
+      <span class="active">{partial tpl="img" src="widget/movistar.png"}</span>
     </div>
-    <div class="text rfloat">
-      <span>Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
-    </div>
-    <div class="clear"></div>
   </div>
   <div class="row border-top last">
     <span class="legalText textShadow">Legal text: Coste del mensaje X,XX€ IVA Incluido. Electronic Corporate Solutions para Fortumo. n.º atn clte. 902599327. s@fortumo.com Apdo. correos 61010 CP. 28036 Madrid. Servicio de ocio y entretenimiento disponible en España para abonados de Movistar, Vodafone y Orange </span>
+    <span class="serviceProvide">Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
   </div>
 </div>
 {partial tpl="help"}

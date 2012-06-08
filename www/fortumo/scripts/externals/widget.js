@@ -79,7 +79,7 @@ $(document).ready(function(){
   //colorbox dynamic resize
   function getHeight() {
     var height = $("#main").height();
-    height = height+70; // extra padding
+    height = height+55; // extra padding
     height = Math.max(height, 380); // min-height
     height = Math.min(height, 700); // max-height
     return height;
@@ -93,11 +93,11 @@ $(document).ready(function(){
 });
   //swap images in operators
   function swapImages(){
-    if ( $(".operators img").length != 3 ) {
+    if ( $(".operators span").length > 6 ) {
       var $active_images = $('.operators .active');
-      var $next1 = ($('.operators .active:last').next().length > 0) ? $('.operators .active:last').next() : $('.operators img:first');
-      var $next2 = ($next1.next().length > 0) ? $next1.next() : $('.operators img:first');
-      var $next3 = ($next2.next().length > 0) ? $next2.next() : $('.operators img:first');
+      var $next1 = ($('.operators .active:last').next().length > 0) ? $('.operators .active:last').next() : $('.operators span:first');
+      var $next2 = ($next1.next().length > 0) ? $next1.next() : $('.operators span:first');
+      var $next3 = ($next2.next().length > 0) ? $next2.next() : $('.operators span:first');
       $active_images.fadeOut(function(){
         $active_images.removeClass('active');
         $next1.add($next2).add($next3).fadeIn().addClass('active');
