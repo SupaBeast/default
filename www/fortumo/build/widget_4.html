@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="et">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style/externals/widget.css" media="all" title="" />
+    <link rel="stylesheet" type="text/css" href="style/externals/uniform.css" media="all" title="" />
+    <link rel="stylesheet" type="text/css" href="style/widget-fonts/fonts.css" media="all" title="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <title>Widget second view</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <span class="caption">Enter your phone number</span>
+        <a href="widget_3.html" id="previous" class="toggle"><img src="images/widget/previous.png" alt="" title=""  width="22" height="22" /></a>
+        <a href="javascript:void(0)" id="close"><img src="images/widget/close.png" alt="" title=""  width="22" height="22" /></a>
+        <a id="help" href="javascript:void(0)">Help</a>
+      </div>
+      <div class="loader hidden">
+        <span class="text">Loading payment data</span>
+        <span class="spiner"><img src="images/widget/loader.gif" alt="" title=""  width="50" height="50" /></span>
+        <span class="powered">Powered by <span class="fontBold">fortumo</span></span>
+      </div>
+      <div id="mainInner">
+        <form action="">
+          <div>
+            <span class="desc textShadow acenter">You were sent a PIN code. Please enter it below</span>
+            <span class="input pin">
+              <span class="inputInner phone"><input type="text" value="" name="" placeholder="Pin Code" class="acenter"/></span>
+              <a href="javascript:void(0)" class="inputButton01 rfloat toggle widget_4"><span class="inputButton01-inner">OK</span></a>
+            </span>
+          </div>
+        </form>
+        <div class="row">
+          <div class="operators lfloat">
+            <img src="images/widget/elisa.png" alt="" title="" class="active"  width="45" height="25" />
+            <img src="images/widget/emt.png" alt="" title="" class="active"  width="49" height="25" />
+            <img src="images/widget/tele2.png" alt="" title="" class="active"  width="52" height="25" />
+            <img src="images/widget/movistar.png" alt="" title=""  width="85" height="25" />
+            <img src="images/widget/nextel.png" alt="" title=""  width="70" height="25" />
+          </div>
+          <div class="text textShadow rfloat">
+            <span>Teenusepakkuja: Silver Company Ltd Klienditugi: <a href="javascript:void(0)">silvercoins@fortumo.com</a></span>
+          </div>
+        </div>
+        <div class="row border-top acenter last">
+          <span class="amount textShadow">319 Silver Coins = <span class="price">$21</span></span>
+        </div>
+      </div>
+      <div id="helpContent" class="hidden">
+        <h1>How can I pay with Fortumo?</h1>
+        <p>Works in every mobile phone. No registration required.</p>
+        <ul>
+          <li>Choose what and how much would you like to buy</li>
+          <li>Enter your mobile number</li>
+          <li>Confirm purchase by sending SMS-message.</li>
+          <li>Purchase amount is added to your mobile phone bill or deducted from pre-paid account.</li>
+        </ul>
+        <p>This is one-time purchase and NOT a recurring subscription or membership.</p>
+        <p>More information at <a href="javascript:void(0)">http://fortumo.com</a></p>
+      </div>
+    </div><!-- #Container -->
+    <div id="preload" class="hidden">
+      <img src="images/widget/loader-bg.png" alt="" title=""  width="4" height="4" />
+    </div>
+    <script type="text/javascript" src="scripts/externals/jquery.js"></script>
+    <script type="text/javascript" src="scripts/externals/colorbox.js"></script>
+    <script type="text/javascript" src="scripts/externals/uniform.js"></script>
+    <script type="text/javascript" src="scripts/externals/widget.js"></script>
+  </body>
+</html>
